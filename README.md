@@ -12,8 +12,8 @@ A responsive and modern staff application form for Discord servers. Features:
 
 1. Clone or download the repository.
 2. Open `index.html` in your browser or use VS Code Live Server.
-3. Fill out the form and submit, currently, data is logged in the console.
-4. You can add a Discord webhook to send applications directly to a channel.
+3. Replace `YOUR_DISCORD_WEBHOOK_URL` in `script.js` with your Discord webhook URL.
+4. Test by submitting a form. The application will appear in your Discord channel.
 
 ## Files
 
