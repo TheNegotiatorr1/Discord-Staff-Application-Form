@@ -20,7 +20,6 @@ A responsive and modern staff application form for Discord servers. Features:
 - `index.html` — Main form HTML
 - `style.css` — Styles for form and background
 - `script.js` — Form validation and submission
-- 
 ## License
 
 MIT License
