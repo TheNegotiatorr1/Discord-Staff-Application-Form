@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff Application Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="container">
+    <h1>Staff Application</h1>
+    <p class="subtitle">Help us grow the community!</p>
+
+    <form id="staffForm">
+      <div class="input-group">
+        <i class="fa fa-user"></i>
+        <input type="text" id="username" name="username" placeholder="Discord Username" required>
+      </div>
+
+      <div class="input-group">
+        <i class="fa fa-id-card"></i>
+        <input type="text" id="userId" name="userId" placeholder="User ID" required>
+      </div>
+
+      <div class="input-group">
+        <i class="fa fa-calendar"></i>
+        <input type="number" id="age" name="age" placeholder="Age" min="13" required>
+      </div>
+
+      <div class="input-group">
+        <i class="fa fa-briefcase"></i>
+        <textarea id="experience" name="experience" rows="4" placeholder="Experience in moderation or community management" required></textarea>
+      </div>
+
+      <div class="input-group">
+        <i class="fa fa-star"></i>
+        <textarea id="motivation" name="motivation" rows="4" placeholder="Why do you want to join the staff team?" required></textarea>
+      </div>
+
+      <div class="input-group">
+        <i class="fa fa-handshake"></i>
+        <textarea type="text" id="position" name="position" rows="4" placeholder="Why do you think you would be fit for this position?" required></textarea>
+      </div>
+
+      <button type="submit">Submit Application</button>
+    </form>
+
+    <p id="confirmation" class="hidden">🎉 Your application has been received!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
